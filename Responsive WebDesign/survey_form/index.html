@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+<body>
+
+<h1 id="title">Wind Instrument Survey form</h1>
+
+<p id="description">Thank you for taking the time to help the community.</p>
+
+<div id="body">
+
+    <form id="survey-form">
+
+        <label id="name-label" for="name">
+            <p>Name:</p>
+        </label>
+        <input id="name" type="text" placeholder="Enter Your Name" required>
+
+        <label id="email-label" for="email">
+            <p>Email:</p>
+        </label>
+        <input id="email" type="email" placeholder="Enter Your Email" required>
+
+        <label id="number-label" for="number">
+            <p>Age:</p>
+        </label>
+        <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+        <p>Which type of instruments do you think of is the favourite:</p>
+        <select id="dropdown">
+            <option value="default">Nothing</option>
+            <option value="He has a moral center.">Wood-wind.</option>
+            <option value="He stands for something.">Bass.</option>
+            <option value="He shuns the limelight.">Brass.</option>
+            <option value="He protects his team.">String.</option>
+            <option value="He adapts to strengths and weaknesses.">Percussion.</option>
+        </select>
+
+        <p>Which Brand Do You Like The Most?</p>
+        <input type="radio" name="movie" value="1">Yamaha</input>
+        <br/>
+        <input type="radio" name="movie" value="2">Suzuki</input>
+        <br/>
+        <input type="radio" name="movies" value="3">Casio</input>
+        <br/>
+        <input type="radio" name="movies" value="4">Hohner</input>
+        <br/>
+        <input type="radio" name="movies" value="5">Swan</input>
+        <br/>
+        <input type="radio" name="movies" value="6">Roland</input>
+        <br/>
+
+        <p>Which Of The Music Type Do You Like?</p>
+        <input type="checkbox" name="avenger" value="1">Classic</input>
+        <br/>
+        <input type="checkbox" name="avengers" value="2">Latin </input>
+        <br/>
+        <input type="checkbox" name="avengers" value="3">Acoustics</input>
+        <br/>
+        <input type="checkbox" name="avengers" value="4">Blue</input>
+        <br/>
+        <input type="checkbox" name="avengers" value="5">R & B</input>
+        <br/><br/>
+
+        <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+        <br/>
+
+        <input id="submit" type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+</body>
+</html>
